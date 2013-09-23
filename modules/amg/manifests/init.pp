@@ -23,6 +23,11 @@ class amg {
     php     => '5.4.17',
   }
 
+  php::extension::imagick { 'imagick for 5.4.17':
+    php     => '5.4.17',
+    imagick => '3.0.0',
+  }
+
   # Node
   class { 'nodejs::global': version => 'v0.10.5' }
 
