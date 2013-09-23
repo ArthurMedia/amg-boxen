@@ -18,6 +18,10 @@ class amg {
 
   class { 'php::global': version => '5.4.17' }
 
+  php::extension::pdo_dblib { 'pdo_dblib for 5.4.17':
+    php => '5.4.17',
+  }
+
   php::extension::xdebug { 'xdebug for 5.4.17':
     version => '2.2.1',
     php     => '5.4.17',
