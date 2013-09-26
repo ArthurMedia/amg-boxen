@@ -29,7 +29,7 @@ class amg {
 
   php::extension::imagick { 'imagick for 5.4.17':
     php     => '5.4.17',
-    version => '3.0.0',
+    version => '3.1.2',
   }
 
   php::extension::intl { 'intl for 5.4.17':
