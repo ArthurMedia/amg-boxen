@@ -13,28 +13,28 @@ class amg {
   include imageoptim
 
   # PHP-lol
-  include php::5_4_17
-  include php::fpm::5_4_17
+  include php::5_4_26
+  include php::fpm::5_4_26
 
-  class { 'php::global': version => '5.4.17' }
+  class { 'php::global': version => '5.4.26' }
 
-  php::extension::pdo_dblib { 'pdo_dblib for 5.4.17':
-    php => '5.4.17',
+  php::extension::pdo_dblib { 'pdo_dblib for 5.4.26':
+    php => '5.4.26',
   }
 
-  php::extension::xdebug { 'xdebug for 5.4.17':
+  php::extension::xdebug { 'xdebug for 5.4.26':
     version => '2.2.1',
-    php     => '5.4.17',
+    php     => '5.4.26',
   }
 
-  php::extension::imagick { 'imagick for 5.4.17':
-    php     => '5.4.17',
+  php::extension::imagick { 'imagick for 5.4.26':
+    php     => '5.4.26',
     version => '3.1.2',
   }
 
-  php::extension::intl { 'intl for 5.4.17':
+  php::extension::intl { 'intl for 5.4.26':
     version => '2.0.1',
-    php     => '5.4.17',
+    php     => '5.4.26',
   }
 
   # Node

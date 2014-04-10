@@ -36,7 +36,7 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-github "php",               "1.1.1"
+github "php",               "1.2.0"
 github "wget",              "0.0.1"
 github "autoconf",          "1.0.0"
 github "libtool",           "1.0.0"
